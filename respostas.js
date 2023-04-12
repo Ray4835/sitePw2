@@ -1,4 +1,4 @@
-function exercicio2 (form2) {
+function exercicio2(form2) {
 score=0;
 
 if (document.form2.e21[0].checked) {
@@ -6,17 +6,18 @@ score= score + 1;
 certo1.style.color="#00ff00"
 }
 if (document.form2.e21[1].checked) {
-errado11.style.color= "#ff0000"
+errado10.style.color= "#ff0000"
 }
 if (document.form2.e21[2].checked) {
-errado12.style.color= "#ff0000"
+errado11.style.color= "#ff0000"
 }
 if (document.form2.e21[3].checked) {
-errado13.style.color= "#ff0000"
+errado12.style.color= "#ff0000"
 }
 if (document.form2.e21[4].checked) {
-errado14.style.color= "#ff0000"
+errado13.style.color= "#ff0000"
 }
+
 
 if (document.form2.e22[0].checked) {
 errado20.style.color= "#ff0000"
@@ -29,10 +30,10 @@ score= score + 1;
 certo2.style.color="#00ff00"
 }
 if (document.form2.e22[3].checked) {
-errado23.style.color= "#ff0000"
+errado22.style.color= "#ff0000"
 }
 if (document.form2.e22[4].checked) {
-errado24.style.color= "#ff0000"
+errado23.style.color= "#ff0000"
 }
 
 if (document.form2.e23[0].checked) {
